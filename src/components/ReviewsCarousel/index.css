@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.divContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 35px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.btnOne {
+  background-color: transparent;
+  border-radius: 0px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  padding-right: 95px;
+
+  align-self: flex-start;
+}
+.btnTwo {
+  background-color: transparent;
+  border-radius: 0px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  padding-left: 95px;
+
+  align-self: flex-end;
+}
+.arrowImages {
+  width: 25px;
+}
+.companyName {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #171f46;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .btnOne {
+    padding-right: 200px;
+  }
+  .btnTwo {
+    padding-left: 200px;
+  }
+  .description {
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+}
